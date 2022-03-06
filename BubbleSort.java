@@ -2,15 +2,13 @@
 * Java program to implement bubble sort algorithm and sort integer array using
 * that method.
 **/
-import java.util.*;
 
+import java.util.*;
 public class BubbleSort{
- 
     public static void main(String args[]) {
          bubbleSort(new int[] { 20, 12, 45, 19, 91, 55 });
          bubbleSort(new int[] { -1, 0, 1 });
          bubbleSort(new int[] { -3, -9, -2, -1 });
- 
      }
  
      /*
@@ -27,14 +25,9 @@ public class BubbleSort{
                  }
              }
          }
- 
          System.out.printf("Sorted Array using Bubble sort algorithm :%s %n",
                  Arrays.toString(numbers));
      }
-     
-     /*
-      * Utility method to swap two numbers in array
-      */
      public static void swap(int[] array, int from, int to){
          int temp = array[from];
          array[from] = array[to];
