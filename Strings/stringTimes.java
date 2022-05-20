@@ -4,15 +4,15 @@
 // stringTimes("Hi", 1) → "Hi"
 
 class stringTimes{
-    public String stringTimes(String str, int n) {
-    String result = "";
-    
-    for(int i = 1; i <= n; i++){
-      result = result + str;
-    }
-    
-    return result;
+  public String stringTimes(String str, int n) {
+  String result = "";
+  
+  for(int i = 1; i <= n; i++){
+    result = result + str;
   }
+  
+  return result;
+}
 }
 
 
