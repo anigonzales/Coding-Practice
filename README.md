@@ -1,6 +1,7 @@
 # Coding-Practice
 
-Java Practice Problems
+Java Practice Problems - simple practice problems dealing with data structures and
+                         other easy Java exercises.
 
 Sources: 
   - LeetCode - https://leetcode.com/problemset/all/?difficulty=EASY&page=1
