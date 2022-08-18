@@ -1,4 +1,4 @@
-
+import java.util.Arrays;
 class Solution{
     //Function to merge the arrays.
     public static void merge(long arr1[], long arr2[], int n, int m) {
@@ -16,7 +16,7 @@ class Solution{
            }
        }
 
-       Arrays. sort(a);
+       Arrays.sort(a);
        for(int i = 0;i < a.length; i++){
            if(i < arr1.length){
                arr1[i] = a[i];
